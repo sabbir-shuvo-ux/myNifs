@@ -997,3 +997,7 @@ p.text-white {
     margin-bottom: 2rem;
   }
 }
+
+.normal_text {
+  text-transform: none !important;
+}
