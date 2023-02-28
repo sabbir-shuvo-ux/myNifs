@@ -90,27 +90,27 @@
               <div class="d-flex flex-column gap-2">
                 <img src="./assets/img/uparr.png" alt="" />
                 <label class="activeLabel" for="femme">
-                  <input checked id="femme" type="radio" />
+                  <input class="hero_radio_one" id="femme" type="radio" />
                   Femme
                 </label>
               </div>
               <div class="d-flex flex-column gap-2">
                 <img src="./assets/img/downarr.png" alt="" />
                 <label for="homme">
-                  <input id="homme" type="radio" />
+                  <input class="hero_radio_two" id="homme" type="radio" />
                   Homme
                 </label>
               </div>
             </div>
-            <div class="text-center card_btn_parent">
-              <button class="px-5 mt-3 res_btn">Rejoins maintenant!</button>
+            <div class="text-center mt-4 card_btn_parent">
+              <a href="#" class="px-5 res_btn">Rejoins maintenant!</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="co_pad">
       <div class="container mb-4">
         <div class="row mt-5">
           <div class="col-md-12">
@@ -203,7 +203,7 @@
         <div class="row">
           <div class="swiper slider_pourquoi">
             <div class="swiper-wrapper my-5">
-              <div class="swiper-slide">
+              <div class="swiper-slide h-auto d-flex justify-content-center">
                 <div class="card border-0">
                   <img
                     src="./assets/img/po_salider_1.png"
@@ -214,11 +214,25 @@
                     <h5 class="card-title">Payant</h5>
                   </div>
                   <div class="text-center card_btn_parent">
-                    <button class="px-5 mt-3">Lire la suite</button>
+                    <a
+                      class="px-5 mt-3"
+                      data-bs-toggle="collapse"
+                      href="#sliderCol1"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >Lire la suite</a
+                    >
+                  </div>
+                  <div class="collapse co_collapse" id="sliderCol1">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae, incidunt?
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide h-auto d-flex justify-content-center">
                 <div class="card border-0">
                   <img
                     src="./assets/img/po_salider_2.png"
@@ -229,11 +243,25 @@
                     <h5 class="card-title">Sécurité</h5>
                   </div>
                   <div class="text-center card_btn_parent">
-                    <button class="px-5 mt-3">Lire la suite</button>
+                    <a
+                      class="px-5 mt-3"
+                      data-bs-toggle="collapse"
+                      href="#sliderCol2"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >Lire la suite</a
+                    >
+                  </div>
+                  <div class="collapse co_collapse" id="sliderCol2">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae, incidunt?
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide h-auto d-flex justify-content-center">
                 <div class="card border-0">
                   <img
                     src="./assets/img/po_salider_3.png"
@@ -244,11 +272,25 @@
                     <h5 class="card-title">Tabou</h5>
                   </div>
                   <div class="text-center card_btn_parent">
-                    <button class="px-5 mt-3">Lire la suite</button>
+                    <a
+                      class="px-5 mt-3"
+                      data-bs-toggle="collapse"
+                      href="#sliderCol3"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >Lire la suite</a
+                    >
+                  </div>
+                  <div class="collapse co_collapse" id="sliderCol3">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae, incidunt?
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide h-auto d-flex justify-content-center">
                 <div class="card border-0">
                   <img
                     src="./assets/img/po_salider_4.png"
@@ -259,11 +301,25 @@
                     <h5 class="card-title">Profil pas sérieux</h5>
                   </div>
                   <div class="text-center card_btn_parent">
-                    <button class="px-5 mt-3">Lire la suite</button>
+                    <a
+                      class="px-5 mt-3"
+                      data-bs-toggle="collapse"
+                      href="#sliderCol4"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >Lire la suite</a
+                    >
+                  </div>
+                  <div class="collapse co_collapse" id="sliderCol4">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae, incidunt?
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide h-auto d-flex justify-content-center">
                 <div class="card border-0">
                   <img
                     src="./assets/img/po_salider_5.png"
@@ -274,7 +330,21 @@
                     <h5 class="card-title">Ça marche ?</h5>
                   </div>
                   <div class="text-center card_btn_parent">
-                    <button class="px-5 mt-3">Lire la suite</button>
+                    <a
+                      class="px-5 mt-3"
+                      data-bs-toggle="collapse"
+                      href="#sliderCol5"
+                      role="button"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                      >Lire la suite</a
+                    >
+                  </div>
+                  <div class="collapse co_collapse" id="sliderCol5">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Vitae, incidunt?
+                    </p>
                   </div>
                 </div>
               </div>
@@ -478,7 +548,7 @@
         </div>
         <div class="row">
           <div class="text-center card_btn_parent mt-3">
-            <button class="px-5 mt-3 normal_text">Rejoignez nos membres</button>
+            <a href="#" class="px-5 mt-3 normal_text">Rejoignez nos membres</a>
           </div>
         </div>
       </div>
@@ -708,6 +778,396 @@
                   </div>
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_container_co">
+                  <img src="./assets/img/costumer1.png" alt="costumer" />
+                </div>
+                <div class="co_slider_main">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis
+                    nisl ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h5 class="text-center text-white font_bold">
+                    NOM, PRENOM (CEO, REFERENCE)
+                  </h5>
+                  <div
+                    class="d-flex justify-content-center gap-1 ratings_color"
+                  >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -737,7 +1197,7 @@
                 />
               </div>
               <div class="text-center card_btn_parent">
-                <button class="px-5 mt-3">Je m’inscris</button>
+                <a href="#" class="px-5 mt-3">Je m’inscris</a>
               </div>
             </div>
           </div>
@@ -928,7 +1388,12 @@
                         d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                       /></svg
                   ></span>
-                  Pseudo
+                  <label for="pseudo">Pseudo</label>
+                  <input
+                    id="pseudo"
+                    type="text"
+                    class="cos_input form-control shadow-none"
+                  />
                 </li>
                 <hr />
                 <li>
@@ -947,7 +1412,13 @@
                         d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
                       /></svg
                   ></span>
-                  Votre adresse Email
+
+                  <label class="nowrap" for="email">Votre adresse Email</label>
+                  <input
+                    id="email"
+                    type="text"
+                    class="cos_input form-control shadow-none"
+                  />
                 </li>
                 <hr />
                 <li>
@@ -966,20 +1437,28 @@
                         d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
                       /></svg
                   ></span>
-                  Votre message
+
+                  <label class="nowrap" for="message">Votre message</label>
+                  <textarea
+                    rows="3"
+                    id="message"
+                    type="text"
+                    class="cos_input form-control shadow-none"
+                  ></textarea>
                 </li>
               </ul>
 
               <div class="mt-5 pt-5">
                 <hr />
                 <div class="text-center card_btn_parent">
-                  <button class="px-5 mt-3">ENVOYER</button>
+                  <a href="#" class="px-5 mt-3">ENVOYER</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- footer -->
       <footer class="mt-5 py-5">
         <div class="container">
           <div class="row">
@@ -996,6 +1475,7 @@
               </div>
             </div>
           </div>
+
           <div class="row mt-5">
             <div class="col-6">
               <div
@@ -1032,6 +1512,23 @@
       crossorigin="anonymous"
     ></script>
 
+    <script>
+      const radio1 = document.querySelector(".hero_radio_one");
+      const radio2 = document.querySelector(".hero_radio_two");
+      radio1.addEventListener("click", () => {
+        radio1.checked = true;
+        radio2.checked = false;
+      });
+      radio2.addEventListener("click", () => {
+        radio2.checked = true;
+        radio1.checked = false;
+      });
+
+      window.addEventListener("load", () => {
+        radio1.checked = false;
+        radio2.checked = false;
+      });
+    </script>
     <!-- main js -->
     <script src="./assets/js/main.js"></script>
 

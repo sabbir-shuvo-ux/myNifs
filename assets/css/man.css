@@ -137,9 +137,13 @@ section {
   font-weight: 600;
 }
 
-.card_btn_parent button {
+.card_btn_parent a {
   color: white;
   outline: none;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
   border: none;
   background: rgb(101, 30, 106);
   background: linear-gradient(
@@ -453,7 +457,14 @@ p.text-white {
 .slider_pourquoi .card {
   min-width: 200px;
   max-width: 400px;
+  width: 400px;
   padding: 1rem 0;
+  border-radius: 1rem;
+  height: max-content;
+}
+
+.slider_pourquoi .card .card-body {
+  flex: inherit;
 }
 
 .slider_pourquoi .card .card-title {
@@ -699,14 +710,14 @@ p.text-white {
     width: 100%;
   }
 
-  .card_btn_parent button {
+  .card_btn_parent a {
     padding: 10px 20px !important;
     font-size: 10px;
   }
 }
 
 @media (max-width: 426px) {
-  .card_btn_parent button {
+  .card_btn_parent a {
     font-size: 10px;
   }
 
@@ -725,6 +736,10 @@ p.text-white {
   .ratings_color i {
     color: gold;
     font-size: 15px;
+  }
+
+  .co_pad {
+    margin-top: -7rem;
   }
 }
 
@@ -777,7 +792,8 @@ p.text-white {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../img/desktop_hero.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1000,4 +1016,50 @@ p.text-white {
 
 .normal_text {
   text-transform: none !important;
+}
+
+@media (max-width: 376px) {
+  .slider_pourquoi .card .card-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .slider_pourquoi .card {
+    margin-bottom: 3rem;
+  }
+}
+
+.cos_input {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.cos_input:focus {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.co_collapse p {
+  padding: 1rem;
+}
+
+@media (max-width: 439px) {
+  .slider_pourquoi .card .card-title {
+    font-size: 14px;
+  }
+
+  .co_collapse p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 336px) {
+  .slider_pourquoi .card .card-title {
+    font-size: 11px;
+  }
 }
