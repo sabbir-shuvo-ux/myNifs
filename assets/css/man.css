@@ -757,11 +757,6 @@ p.text-white {
     padding-right: 10px;
   }
 
-  .sou_img_container {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr;
-  }
-
   .avater_img {
     width: auto;
   }
@@ -803,7 +798,8 @@ p.text-white {
 }
 
 .w125px {
-  width: 125px !important;
+  border-radius: 50%;
+  background-color: black;
 }
 
 @media (max-width: 426px) {
@@ -1061,5 +1057,24 @@ p.text-white {
 @media (max-width: 336px) {
   .slider_pourquoi .card .card-title {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sou_img_container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .small_card p {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}
+@media (max-width: 376px) {
+  .small_card p {
+    /* width: 80%; */
+    margin: 0 auto;
+    font-size: 10px;
   }
 }
